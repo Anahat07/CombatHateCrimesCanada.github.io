@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  html
+  ,
+  
+  body {
+    background-color: #98b7d6;
+    color: #0b2947;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  
+  /* top banner*/
+  .banner{
+    width: 100%;
+    height: 20vh;
+    background-color: #fff;
+    color: #0b2947;
+    font-size: 20px;
+  }
+
+  .banner-title{
+    padding: 5vh 2vh;
+  }
+  
+  .pages {
+  display: inline-block;
+  }
+  
+  a[class=pages] {
+  border: none;
+  color: #0b2947;
+  padding: 3vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vh;
+  margin: 3vh;
+  border-radius: 12px;
+  }
+  
+  a[class=pages]:hover {
+  background-color: #98b7d6;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-button-next{
+    color:#0b2947;
+  }
+
+  .swiper-button-prev{
+    color:#0b2947;
+  }
+
+  .swiper-pagination{
+    color:#0b2947;
+  }
+
+  .intro-text{
+  padding-top: 15vh;
+  }
+  
+  /* intro */
+  .introduction {
+  height: 120vh;
+  padding: 15% 30vw 0 30vw;
+  background: #98b7d6;
+  width: 100%;
+  padding: 60px;
+  margin-bottom: 15vh;
+  color: #0b2947;
+  }
+  
+  /*apply button + roles*/
+  a[class=appl] {
+    border: none;
+    background-color:#98b7d6;
+    color: #98b7d6;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 10px;
+    border-radius: 12px;
+    float: right;
+  }
+  
+  a[class=appl]:hover {
+    background-color: #0b2947;
+  }
+  
+  a[class=opp] {
+    border: none;
+    background-color:white;
+    color: #98b7d6;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 10px;
+    border-radius: 12px;
+    float: right;
+  }
+  
+  a[class=opp]:hover {
+    background-color: #0b2947;
+  }
+  
+  /*month summary*/
+  .month-at-a-glance {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    padding: 60px;
+  }
+  
+  /*form*/
+  
+  .newsletter {
+  padding: 15% 30vw 0 30vw;
+  background: #98b7d6;
+  width: 100%;
+  padding: 60px;
+  color: #0b2947;
+  }
+
+  .newsletter h1 {
+    margin-left: 65vh;
+  }
+  
+  .row-main{
+  margin-right: 70px;
+  }
+  
+  .row-input {
+  width: 40vh;
+  font-weight: 300;
+  font-size:5vh;
+  }
+  input[type="name"],
+  input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 40vw;
+  margin-left: 3vh;
+  }
+
+  .form-input{
+    margin-left: 65vh;
+  }
+  
+  button[type="submit"] {
+  width: 20%;
+  padding: 5px;
+  background-color:#fff;
+  color: #0b2947;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-weight: 300;
+  font-size:15px;
+  float: right;
+  margin-top: 3vh;
+  margin-right: 72vh;
+  }
+  
+  button[type="submit"]:hover {
+  background-color:#fff;
+  color: #0b2947;
+  border: none;
+  }
+  
+  
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    height: 10vh;
+    padding-bottom: 25px;
+    background: #98b7d6;
+  
+  }
+  
+  
+  
+  
+
+  .sidenav {
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: #0b2947;
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  
+  .sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #0b2947; 
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .open-btn{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #fff;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  
+  /*
+  
+        <div class="slides-content" style="float:right; width: 400px; margin-right: 50px; margin-top: 50px;" >
+          <div class="mySlides">
+              <p>Our Next Workshop is:</p>
+              <p>Sunday March 10th 2024 @ 10am</p>
+          </div>
+          <div class="mySlides">
+            <p>Check Out Our February Newsletter!</p>
+          </div>
+        </div>   
+  
+  /* for form*/
+  .form-input{
+  display: flex;
+  width: 50vh;
+  }
