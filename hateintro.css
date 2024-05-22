@@ -47,37 +47,6 @@
   a[class=pages]:hover {
   background-color: #98b7d6;
   }
-  
-  .swiper-container {
-    width: 100%;
-    height: 80vh;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper-button-next{
-    color:#0b2947;
-  }
-
-  .swiper-button-prev{
-    color:#0b2947;
-  }
-
-  .swiper-pagination{
-    color:#0b2947;
-  }
 
   .intro-text{
   padding-top: 15vh;
@@ -85,11 +54,11 @@
   
   /* intro */
   .introduction {
-  height: 120vh;
+  height: 50vh;
   padding: 15% 30vw 0 30vw;
   background: #98b7d6;
   width: 100%;
-  padding: 60px;
+  padding: 5vh;
   margin-bottom: 15vh;
   color: #0b2947;
   }
@@ -189,7 +158,7 @@
   font-size:15px;
   float: right;
   margin-top: 3vh;
-  margin-right: 72vh;
+  margin-right: 80vh;
   }
   
   button[type="submit"]:hover {
