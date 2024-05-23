@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Header stuff-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="author" content="Combat Hate Crimes Canada">
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <title>Combat Hate Crimes Canada</title>
+   
+    <!--Font stuff-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--Animation Package-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!--Icon Package-->
+    <script src="https://kit.fontawesome.com/c6ffe2ba2c.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Swiper's JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="recent.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+          <div style="float: left; margin: 3vh;";><img src="images/logo.png" class="logo-img", width="70vh"></div>
+          <h1 class="banner-title">Recent Statistics of Hate Crimes in Canada</h1>
+          
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="pages"><a class="pages" href="intro.html">Home</a></div>
+              <div class="pages"><a class="pages" href="hateintro.html">About Hate Crimes</a></div>
+              <div class="pages"><a class="pages" href="history.html">History</a></div>
+              <div class="pages"><a class="pages" href="recent.html">Current Statistics</a></div>
+              <div class="pages"><a class="pages" href="laws.html">Legal Principles</a></div>
+              <div class="pages"><a class="pages" href="importantcases.html">Important Cases</a></div>
+              <div class="pages"><a class="pages" href="future.html">The Future</a></div>
+              <div class="pages"><a class="pages" href="resources.html">Resources</a></div>
+            </div>
+            
+            <!-- Use any element to open the sidenav -->
+            <span class="open-btn" onclick="openNav()"><i style="padding: 3vh" class="fa-solid fa-bars"></i></span>
+
+      </div>
+
+      <div class="introduction">
+
+        <div class="left-intro row row-cols-2">
+          <div class="col-lg-7 col-md-6 col-12 intro-text">
+            <h1>What Are the Current Findings on Hate Crimes in Canada?</h1>
+            <p>According to data from Statistics Canada, there has been a noticeable increase in reported hate crimes over the past decade. This rise is attributed to several factors, including better reporting mechanisms, increased public awareness, and possibly a genuine increase in incidents fueled by global and domestic socio-political tensions. Read more below.</p>
+          </div>
+        </div>
+     
+      </div>
+
+      <div data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" class="month-at-a-glance container">
+        <div class="row row-cols-2">
+          <div class="col-lg-7 col-md-6 col-12"><h1 style="padding-bottom: 2px;">Specific Statistics</h1>   
+            <div class="application">
+                <p>Here are some recent statistics found by Statistics Canada:</p>
+                <li>The number of police-reported hate crimes rose by 7% in 2022, continuing an upward trend with an 83% increase from 2019 to 2022 (Department of Justice, 2024).</li>
+                <li>Hate crimes motivated by race or ethnicity increased by 12% in 2022, marking the fourth consecutive year of increase (Department of Justice, 2024).</li>
+                <li>Hate crimes motivated by religion decreased by 15% overall in 2022, after peaking in 2021, with notable changes (Department of Justice, 2024).</li>
+                <li>Hate crimes motivated by sexual orientation increased by 12% in 2022 (Department of Justice, 2024).</li>
+                <li>The majority of police-reported hate crimes remained non-violent in 2022. Non-violent hate crimes rose by 3%, while violent hate crimes increased by 12% (Department of Justice, 2024).</li>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/statistic1.png" alt="Image 1"></div>
+                  <div class="swiper-slide"><img src="images/statistic2.png" alt="Image 2"></div>
+                  <div class="swiper-slide"><img src="images/statistic3.png" alt="Image 3"></div>
+                  <div class="swiper-slide"><img src="images/statistic4.png" alt="Image 4"></div>
+                  <div class="swiper-slide"><img src="images/statistic5.png" alt="Image 5"></div>
+                  <div class="swiper-slide"><img src="images/statistic6.png" alt="Image 6"></div>
+                  <!-- Add more slides as needed -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+          </div>
+          <p>All statistics are found on the Statistics Canada website. <a href="https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2024006-eng.htm">Learn More Here!</a></p>
+      </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" class="cohen">
+        <div class="row row-cols-2">
+          <div class="col-lg-7 col-md-6 col-12"><h1 style="padding-bottom: 2px;">Recent Cases</h1>   
+            <div class="application">
+                <p>Some Very Recent Cases Include:</p>
+                <li><b>Antisemitic Hate Crimes 2023: </b>
+                    Marcus Stiller, a Vancouver restaurant owner, faced severe backlash for displaying an Israeli flag at his establishment, Fish Café. This included negative online reviews, hate messages, and vandalism with a swastika and far-right slogans (Bell & Semple, 2024). 
+                    Additionally, in Victoria, B.C., preacher Younus Kathrada delivered sermons that incited hatred against Jewish people, leading to investigations by local authorities due to their inflammatory content (Bell & Semple, 2024). 
+                </li>
+                <li><b>Anti-Muslim Hate Crimes</b>
+                    Another troubling incident occurred in Montreal in March 2024, where a man was attacked for "looking" Muslim despite being a Christian from Eastern Europe, highlighting the dangerous consequences of mistaken identity and prejudice (Henriquez, 2024). 
+                </li>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-12">
+            <img src="images/RecentCases.jpg" alt="Recent Cases Image">
+            <img src="images/RecentCases2.jpg" alt="Recent Cases Image 2">
+        </div>
+      </div>
+      </div>
+
+  </div>
+    <footer>&copy; Copyright 2024 Combat Hate Crimes Canada</footer>
+    </header>
+
+    
+
+
+    <script src="recent.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>
